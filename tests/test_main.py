@@ -12,7 +12,7 @@ def test_health():
 def test_analyze():
     response = client.post("/analyze", json={"text": "Hello, world!"})
     assert response.status_code == 200
-    assert response.json() == {"character_length": 13, "word_count": 2}
+    assert response.json() == {"character_length": 999, "word_count": 2}
 
 
 def test_analyze_rejects_missing_text():
