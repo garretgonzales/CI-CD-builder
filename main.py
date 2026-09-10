@@ -16,5 +16,6 @@ def health():
 @app.post("/analyze")
 def analyze(request: AnalysisRequest):
     # Perform analysis on the text
-    return {"text" : request.text}
+    return {"character_length" :len(request.text), "word_count": len(request.text.split()),
+    }
 
