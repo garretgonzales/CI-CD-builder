@@ -1,0 +1,47 @@
+# Python environments and compiled files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Tests, coverage, and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Packaging output
+build/
+dist/
+*.egg-info/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Editor, operating system, and temporary files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
+
+# Local agent instructions and work artifacts
+AGENTS.md
+AGENTS.local.md
+.codex/
+.agents/
+.claude/
+.agent-tmp/
