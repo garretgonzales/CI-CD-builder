@@ -19,3 +19,4 @@ def analyze(request: AnalysisRequest):
     return {"character_length" :len(request.text), "word_count": len(request.text.split()),
     }
 
+
